@@ -1,43 +1,30 @@
-# IBM-COGNOS-ANALYTICS
-A dashboard to understand sales and service departments for a chain of car dealerships.
+# Vehicle Sales & Service Dashboard
 
-## SCENARIO   
+An interactive business intelligence dashboard built in IBM Cognos Analytics
+that combines sales performance and service quality metrics for an automotive
+business.
 
-As a regional manager for a chain of car dealerships you need to build out a dashboard to allow you to understand your sales and service departments.
+## Overview
 
-## DASHBOARDS
+The dashboard is split into two pages:
 
-The project consists of two dashboards designed to provide an overview of the sales and service departments.
+### Sales
+- **Key metrics:** Total profit ($78.4M), quantity sold (58,118 units), and
+  average quantity sold (19.373)
+- **Quantity Sold by Model:** Compares unit sales across the five vehicle models
+- **Profit by Dealer ID:** Ranks the top dealers by total profit
 
-### SALES
+### Service
+- **Number of Recalls by Model:** Recall counts across Beaufort, Champlain,
+  Hudson, Labrador, and Salish (roughly 32-33 each)
+- **Customer Sentiment:** Breakdown of positive, neutral, and negative feedback
+- **Profit and Quantity Sold by Month:** Combined column and line chart showing
+  seasonal trends in sales volume and profit
+- **Recalls by Model and Affected System:** Heatmap showing which vehicle
+  systems (brakes, engine, airbag, electrical, etc.) are most affected per model
 
-The Sales dashboard focuses on understanding the performance of the dealership's sales department.
-
-The dashboard uses a tabbed layout with four KPI sections at the top and a larger visualization area below.
-
-The dashboard is designed to provide insights into:
-
-- Sales performance
-- Vehicle sales
-- Dealership performance
-- Sales trends and patterns
-
-### SERVICE
-
-The Service dashboard focuses on understanding the performance of the dealership's service department.
-
-The dashboard uses a 2 × 2 layout containing four visualization areas.
-
-The dashboard is designed to provide insights into:
-
-- Service performance
-- Service activity
-- Dealership service performance
-- Service trends and patterns
-
-## TOOLS
-
+## Tools
 - IBM Cognos Analytics
-- Data Visualization
-- Dashboarding
-- Data Analysis
+
+## Files
+- `New_dashboard.pdf`: Exported snapshot of the dashboard
